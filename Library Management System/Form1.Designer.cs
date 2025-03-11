@@ -34,15 +34,12 @@
             button1 = new Button();
             panel1 = new Panel();
             groupBox4 = new GroupBox();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
-            label13 = new Label();
             label14 = new Label();
             label15 = new Label();
+            label6 = new Label();
+            label13 = new Label();
             label12 = new Label();
             label7 = new Label();
-            label6 = new Label();
             pictureBox17 = new PictureBox();
             pictureBox16 = new PictureBox();
             label5 = new Label();
@@ -55,32 +52,14 @@
             label19 = new Label();
             pictureBox18 = new PictureBox();
             groupBox2 = new GroupBox();
-            label34 = new Label();
-            label35 = new Label();
-            label32 = new Label();
-            label33 = new Label();
-            label30 = new Label();
-            label31 = new Label();
-            label29 = new Label();
-            label28 = new Label();
-            label27 = new Label();
-            label26 = new Label();
-            label25 = new Label();
-            pictureBox23 = new PictureBox();
-            label24 = new Label();
-            pictureBox14 = new PictureBox();
-            pictureBox13 = new PictureBox();
-            pictureBox12 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            pictureBox7 = new PictureBox();
-            pictureBox6 = new PictureBox();
+            listView1 = new ListView();
+            button8 = new Button();
+            button7 = new Button();
             label4 = new Label();
             groupBox1 = new GroupBox();
+            pictureBox5 = new PictureBox();
             richTextBox1 = new RichTextBox();
             label3 = new Label();
-            pictureBox5 = new PictureBox();
             button2 = new Button();
             label9 = new Label();
             label8 = new Label();
@@ -109,15 +88,6 @@
             groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -161,15 +131,12 @@
             // groupBox4
             // 
             groupBox4.BackColor = Color.White;
-            groupBox4.Controls.Add(label16);
-            groupBox4.Controls.Add(label17);
-            groupBox4.Controls.Add(label18);
-            groupBox4.Controls.Add(label13);
             groupBox4.Controls.Add(label14);
             groupBox4.Controls.Add(label15);
+            groupBox4.Controls.Add(label6);
+            groupBox4.Controls.Add(label13);
             groupBox4.Controls.Add(label12);
             groupBox4.Controls.Add(label7);
-            groupBox4.Controls.Add(label6);
             groupBox4.Controls.Add(pictureBox17);
             groupBox4.Controls.Add(pictureBox16);
             groupBox4.Controls.Add(label5);
@@ -177,26 +144,6 @@
             resources.ApplyResources(groupBox4, "groupBox4");
             groupBox4.Name = "groupBox4";
             groupBox4.TabStop = false;
-            // 
-            // label16
-            // 
-            resources.ApplyResources(label16, "label16");
-            label16.Name = "label16";
-            // 
-            // label17
-            // 
-            resources.ApplyResources(label17, "label17");
-            label17.Name = "label17";
-            // 
-            // label18
-            // 
-            resources.ApplyResources(label18, "label18");
-            label18.Name = "label18";
-            // 
-            // label13
-            // 
-            resources.ApplyResources(label13, "label13");
-            label13.Name = "label13";
             // 
             // label14
             // 
@@ -207,6 +154,16 @@
             // 
             resources.ApplyResources(label15, "label15");
             label15.Name = "label15";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.Name = "label6";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(label13, "label13");
+            label13.Name = "label13";
             // 
             // label12
             // 
@@ -219,21 +176,14 @@
             resources.ApplyResources(label7, "label7");
             label7.Name = "label7";
             // 
-            // label6
-            // 
-            resources.ApplyResources(label6, "label6");
-            label6.Name = "label6";
-            // 
             // pictureBox17
             // 
-            pictureBox17.Image = Properties.Resources.Game_of_thrones;
             resources.ApplyResources(pictureBox17, "pictureBox17");
             pictureBox17.Name = "pictureBox17";
             pictureBox17.TabStop = false;
             // 
             // pictureBox16
             // 
-            pictureBox16.Image = Properties.Resources.Game_of_thrones;
             resources.ApplyResources(pictureBox16, "pictureBox16");
             pictureBox16.Name = "pictureBox16";
             pictureBox16.TabStop = false;
@@ -245,7 +195,6 @@
             // 
             // pictureBox15
             // 
-            pictureBox15.Image = Properties.Resources.Game_of_thrones;
             resources.ApplyResources(pictureBox15, "pictureBox15");
             pictureBox15.Name = "pictureBox15";
             pictureBox15.TabStop = false;
@@ -308,154 +257,36 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.White;
-            groupBox2.Controls.Add(label34);
-            groupBox2.Controls.Add(label35);
-            groupBox2.Controls.Add(label32);
-            groupBox2.Controls.Add(label33);
-            groupBox2.Controls.Add(label30);
-            groupBox2.Controls.Add(label31);
-            groupBox2.Controls.Add(label29);
-            groupBox2.Controls.Add(label28);
-            groupBox2.Controls.Add(label27);
-            groupBox2.Controls.Add(label26);
-            groupBox2.Controls.Add(label25);
-            groupBox2.Controls.Add(pictureBox23);
-            groupBox2.Controls.Add(label24);
-            groupBox2.Controls.Add(pictureBox14);
-            groupBox2.Controls.Add(pictureBox13);
-            groupBox2.Controls.Add(pictureBox12);
-            groupBox2.Controls.Add(pictureBox11);
-            groupBox2.Controls.Add(pictureBox10);
-            groupBox2.Controls.Add(pictureBox8);
-            groupBox2.Controls.Add(pictureBox7);
-            groupBox2.Controls.Add(pictureBox6);
+            groupBox2.Controls.Add(listView1);
+            groupBox2.Controls.Add(button8);
+            groupBox2.Controls.Add(button7);
             groupBox2.Controls.Add(label4);
             resources.ApplyResources(groupBox2, "groupBox2");
             groupBox2.Name = "groupBox2";
             groupBox2.TabStop = false;
             // 
-            // label34
+            // listView1
             // 
-            resources.ApplyResources(label34, "label34");
-            label34.Name = "label34";
+            resources.ApplyResources(listView1, "listView1");
+            listView1.Groups.AddRange(new ListViewGroup[] { (ListViewGroup)resources.GetObject("listView1.Groups"), (ListViewGroup)resources.GetObject("listView1.Groups1"), (ListViewGroup)resources.GetObject("listView1.Groups2"), (ListViewGroup)resources.GetObject("listView1.Groups3") });
+            listView1.Name = "listView1";
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Details;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
-            // label35
+            // button8
             // 
-            resources.ApplyResources(label35, "label35");
-            label35.Name = "label35";
+            resources.ApplyResources(button8, "button8");
+            button8.Name = "button8";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
-            // label32
+            // button7
             // 
-            resources.ApplyResources(label32, "label32");
-            label32.Name = "label32";
-            // 
-            // label33
-            // 
-            resources.ApplyResources(label33, "label33");
-            label33.Name = "label33";
-            // 
-            // label30
-            // 
-            resources.ApplyResources(label30, "label30");
-            label30.Name = "label30";
-            // 
-            // label31
-            // 
-            resources.ApplyResources(label31, "label31");
-            label31.Name = "label31";
-            // 
-            // label29
-            // 
-            resources.ApplyResources(label29, "label29");
-            label29.Name = "label29";
-            // 
-            // label28
-            // 
-            resources.ApplyResources(label28, "label28");
-            label28.Name = "label28";
-            // 
-            // label27
-            // 
-            resources.ApplyResources(label27, "label27");
-            label27.Name = "label27";
-            // 
-            // label26
-            // 
-            resources.ApplyResources(label26, "label26");
-            label26.Name = "label26";
-            // 
-            // label25
-            // 
-            resources.ApplyResources(label25, "label25");
-            label25.Name = "label25";
-            // 
-            // pictureBox23
-            // 
-            pictureBox23.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox23, "pictureBox23");
-            pictureBox23.Name = "pictureBox23";
-            pictureBox23.TabStop = false;
-            // 
-            // label24
-            // 
-            resources.ApplyResources(label24, "label24");
-            label24.Name = "label24";
-            // 
-            // pictureBox14
-            // 
-            pictureBox14.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox14, "pictureBox14");
-            pictureBox14.Name = "pictureBox14";
-            pictureBox14.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            pictureBox13.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox13, "pictureBox13");
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox12, "pictureBox12");
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox11, "pictureBox11");
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox10, "pictureBox10");
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox8, "pictureBox8");
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox7, "pictureBox7");
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox6, "pictureBox6");
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.TabStop = false;
+            resources.ApplyResources(button7, "button7");
+            button7.Name = "button7";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // label4
             // 
@@ -465,15 +296,22 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.White;
+            groupBox1.Controls.Add(pictureBox5);
             groupBox1.Controls.Add(richTextBox1);
             groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(pictureBox5);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(label9);
             groupBox1.Controls.Add(label8);
             resources.ApplyResources(groupBox1, "groupBox1");
             groupBox1.Name = "groupBox1";
             groupBox1.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = Properties.Resources.Game_of_thrones;
+            resources.ApplyResources(pictureBox5, "pictureBox5");
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.TabStop = false;
             // 
             // richTextBox1
             // 
@@ -485,13 +323,6 @@
             resources.ApplyResources(label3, "label3");
             label3.Name = "label3";
             // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = Properties.Resources.Game_of_thrones;
-            resources.ApplyResources(pictureBox5, "pictureBox5");
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.TabStop = false;
-            // 
             // button2
             // 
             button2.BackColor = Color.FromArgb(128, 255, 128);
@@ -499,6 +330,7 @@
             button2.ForeColor = SystemColors.ButtonHighlight;
             button2.Name = "button2";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // label9
             // 
@@ -650,6 +482,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
@@ -661,15 +494,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
@@ -708,31 +532,15 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
         private Label label3;
         private RichTextBox richTextBox1;
         private Label label7;
-        private Label label6;
         private PictureBox pictureBox17;
         private PictureBox pictureBox16;
         private Label label5;
         private PictureBox pictureBox15;
-        private PictureBox pictureBox14;
-        private PictureBox pictureBox13;
-        private PictureBox pictureBox12;
-        private PictureBox pictureBox11;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox6;
         private Label label4;
         private Label label12;
-        private Label label16;
-        private Label label17;
-        private Label label18;
-        private Label label13;
-        private Label label14;
-        private Label label15;
         private Label label21;
         private Label label20;
         private Label label19;
@@ -744,22 +552,17 @@
         private Label label23;
         private PictureBox pictureBox21;
         private PictureBox pictureBox22;
-        private Label label24;
-        private Label label29;
-        private Label label28;
-        private Label label27;
-        private Label label26;
-        private Label label25;
-        private PictureBox pictureBox23;
-        private Label label34;
-        private Label label35;
-        private Label label32;
-        private Label label33;
-        private Label label30;
-        private Label label31;
         private PictureBox pictureBox9;
         private PictureBox pictureBox24;
         private Label label10;
         private Label label11;
+        private ListView listView1;
+        private Button button8;
+        private Button button7;
+        private PictureBox pictureBox5;
+        private Label label14;
+        private Label label15;
+        private Label label6;
+        private Label label13;
     }
 }

@@ -52,6 +52,14 @@
             label3 = new Label();
             label4 = new Label();
             groupBox1 = new GroupBox();
+            pictureBox4 = new PictureBox();
+            pictureBox20 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            label9 = new Label();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
             label13 = new Label();
             label14 = new Label();
             label11 = new Label();
@@ -62,14 +70,6 @@
             label7 = new Label();
             label27 = new Label();
             label24 = new Label();
-            pictureBox4 = new PictureBox();
-            pictureBox20 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            label9 = new Label();
-            pictureBox5 = new PictureBox();
-            pictureBox6 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
@@ -371,119 +371,9 @@
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI", 6F);
-            label13.ImeMode = ImeMode.NoControl;
-            label13.Location = new Point(471, 137);
-            label13.Name = "label13";
-            label13.Size = new Size(89, 11);
-            label13.TabIndex = 52;
-            label13.Text = "-by George R. R. Martin";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
-            label14.ImeMode = ImeMode.NoControl;
-            label14.Location = new Point(474, 124);
-            label14.Name = "label14";
-            label14.Size = new Size(72, 11);
-            label14.TabIndex = 51;
-            label14.Text = "Game of Thrones";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 6F);
-            label11.ImeMode = ImeMode.NoControl;
-            label11.Location = new Point(362, 137);
-            label11.Name = "label11";
-            label11.Size = new Size(89, 11);
-            label11.TabIndex = 50;
-            label11.Text = "-by George R. R. Martin";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
-            label12.ImeMode = ImeMode.NoControl;
-            label12.Location = new Point(365, 124);
-            label12.Name = "label12";
-            label12.Size = new Size(72, 11);
-            label12.TabIndex = 49;
-            label12.Text = "Game of Thrones";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 6F);
-            label8.ImeMode = ImeMode.NoControl;
-            label8.Location = new Point(250, 137);
-            label8.Name = "label8";
-            label8.Size = new Size(89, 11);
-            label8.TabIndex = 48;
-            label8.Text = "-by George R. R. Martin";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
-            label10.ImeMode = ImeMode.NoControl;
-            label10.Location = new Point(253, 124);
-            label10.Name = "label10";
-            label10.Size = new Size(72, 11);
-            label10.TabIndex = 47;
-            label10.Text = "Game of Thrones";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 6F);
-            label6.ImeMode = ImeMode.NoControl;
-            label6.Location = new Point(145, 137);
-            label6.Name = "label6";
-            label6.Size = new Size(89, 11);
-            label6.TabIndex = 46;
-            label6.Text = "-by George R. R. Martin";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
-            label7.ImeMode = ImeMode.NoControl;
-            label7.Location = new Point(148, 124);
-            label7.Name = "label7";
-            label7.Size = new Size(72, 11);
-            label7.TabIndex = 45;
-            label7.Text = "Game of Thrones";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Font = new Font("Segoe UI", 6F);
-            label27.ImeMode = ImeMode.NoControl;
-            label27.Location = new Point(37, 137);
-            label27.Name = "label27";
-            label27.Size = new Size(89, 11);
-            label27.TabIndex = 44;
-            label27.Text = "-by George R. R. Martin";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
-            label24.ImeMode = ImeMode.NoControl;
-            label24.Location = new Point(40, 124);
-            label24.Name = "label24";
-            label24.Size = new Size(72, 11);
-            label24.TabIndex = 43;
-            label24.Text = "Game of Thrones";
-            // 
             // pictureBox4
             // 
-            pictureBox4.Image = Properties.Resources.Game_of_thrones;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(471, 51);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(73, 67);
@@ -493,7 +383,7 @@
             // 
             // pictureBox20
             // 
-            pictureBox20.Image = Properties.Resources.Game_of_thrones;
+            pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
             pictureBox20.Location = new Point(364, 51);
             pictureBox20.Name = "pictureBox20";
             pictureBox20.Size = new Size(73, 67);
@@ -503,7 +393,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.Game_of_thrones;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(253, 51);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(73, 67);
@@ -513,7 +403,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.Game_of_thrones;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(148, 51);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(73, 67);
@@ -523,7 +413,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Game_of_thrones;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(40, 51);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(73, 67);
@@ -564,6 +454,116 @@
             pictureBox6.TabIndex = 47;
             pictureBox6.TabStop = false;
             // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label13.ImeMode = ImeMode.NoControl;
+            label13.Location = new Point(480, 134);
+            label13.Name = "label13";
+            label13.Size = new Size(95, 13);
+            label13.TabIndex = 60;
+            label13.Text = "-by Stephen king";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.ImeMode = ImeMode.NoControl;
+            label14.Location = new Point(475, 121);
+            label14.Name = "label14";
+            label14.Size = new Size(82, 15);
+            label14.TabIndex = 59;
+            label14.Text = "Rose Madder";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label11.ImeMode = ImeMode.NoControl;
+            label11.Location = new Point(379, 134);
+            label11.Name = "label11";
+            label11.Size = new Size(82, 13);
+            label11.TabIndex = 58;
+            label11.Text = "-by Jules verne";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.ImeMode = ImeMode.NoControl;
+            label12.Location = new Point(374, 121);
+            label12.Name = "label12";
+            label12.Size = new Size(102, 15);
+            label12.TabIndex = 57;
+            label12.Text = "Around da World";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.ImeMode = ImeMode.NoControl;
+            label8.Location = new Point(267, 134);
+            label8.Name = "label8";
+            label8.Size = new Size(111, 13);
+            label8.TabIndex = 56;
+            label8.Text = "-by Michael crichton";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ImeMode = ImeMode.NoControl;
+            label10.Location = new Point(262, 121);
+            label10.Name = "label10";
+            label10.Size = new Size(55, 15);
+            label10.TabIndex = 55;
+            label10.Text = "Timeline";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ImeMode = ImeMode.NoControl;
+            label6.Location = new Point(157, 134);
+            label6.Name = "label6";
+            label6.Size = new Size(94, 13);
+            label6.TabIndex = 54;
+            label6.Text = "-by William peter";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ImeMode = ImeMode.NoControl;
+            label7.Location = new Point(152, 121);
+            label7.Name = "label7";
+            label7.Size = new Size(77, 15);
+            label7.TabIndex = 53;
+            label7.Text = "The Exorcist";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label27.ImeMode = ImeMode.NoControl;
+            label27.Location = new Point(40, 134);
+            label27.Name = "label27";
+            label27.Size = new Size(73, 13);
+            label27.TabIndex = 52;
+            label27.Text = "-by Hannibal";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.ImeMode = ImeMode.NoControl;
+            label24.Location = new Point(35, 121);
+            label24.Name = "label24";
+            label24.Size = new Size(90, 15);
+            label24.TabIndex = 51;
+            label24.Text = "Thomas Harris";
+            // 
             // Timeline
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -589,6 +589,7 @@
             Controls.Add(button3);
             Controls.Add(label2);
             Controls.Add(label1);
+            MinimizeBox = false;
             Name = "Timeline";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Timeline";
@@ -638,16 +639,6 @@
         private PictureBox pictureBox12;
         private Panel panel1;
         private GroupBox groupBox1;
-        private Label label13;
-        private Label label14;
-        private Label label11;
-        private Label label12;
-        private Label label8;
-        private Label label10;
-        private Label label6;
-        private Label label7;
-        private Label label27;
-        private Label label24;
         private PictureBox pictureBox4;
         private PictureBox pictureBox20;
         private PictureBox pictureBox3;
@@ -660,5 +651,15 @@
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
+        private Label label13;
+        private Label label14;
+        private Label label11;
+        private Label label12;
+        private Label label8;
+        private Label label10;
+        private Label label6;
+        private Label label7;
+        private Label label27;
+        private Label label24;
     }
 }

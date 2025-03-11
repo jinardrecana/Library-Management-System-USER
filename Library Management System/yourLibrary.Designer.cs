@@ -28,12 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(yourLibrary));
             label1 = new Label();
             button3 = new Button();
             panel1 = new Panel();
             groupBox4 = new GroupBox();
+            button9 = new Button();
+            button8 = new Button();
+            listView2 = new ListView();
             label4 = new Label();
             groupBox2 = new GroupBox();
+            button7 = new Button();
+            button6 = new Button();
+            listView1 = new ListView();
             label3 = new Label();
             groupBox1 = new GroupBox();
             label13 = new Label();
@@ -129,19 +136,55 @@
             // groupBox4
             // 
             groupBox4.BackColor = Color.White;
+            groupBox4.Controls.Add(button9);
+            groupBox4.Controls.Add(button8);
+            groupBox4.Controls.Add(listView2);
             groupBox4.Controls.Add(label4);
             groupBox4.Location = new Point(318, 187);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(280, 431);
             groupBox4.TabIndex = 1;
             groupBox4.TabStop = false;
+            groupBox4.Enter += groupBox4_Enter;
+            // 
+            // button9
+            // 
+            button9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button9.Location = new Point(151, 278);
+            button9.Name = "button9";
+            button9.Size = new Size(96, 31);
+            button9.TabIndex = 12;
+            button9.Text = "CLEAR";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(29, 278);
+            button8.Name = "button8";
+            button8.Size = new Size(96, 31);
+            button8.TabIndex = 11;
+            button8.Text = "FILL";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // listView2
+            // 
+            listView2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            listView2.Location = new Point(20, 28);
+            listView2.Name = "listView2";
+            listView2.Size = new Size(243, 244);
+            listView2.TabIndex = 11;
+            listView2.UseCompatibleStateImageBehavior = false;
+            listView2.SelectedIndexChanged += listView2_SelectedIndexChanged;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Impact", 15F, FontStyle.Bold);
             label4.ImeMode = ImeMode.NoControl;
-            label4.Location = new Point(72, 19);
+            label4.Location = new Point(77, 4);
             label4.Name = "label4";
             label4.Size = new Size(113, 25);
             label4.TabIndex = 8;
@@ -150,19 +193,55 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.White;
+            groupBox2.Controls.Add(button7);
+            groupBox2.Controls.Add(button6);
+            groupBox2.Controls.Add(listView1);
             groupBox2.Controls.Add(label3);
             groupBox2.Location = new Point(21, 187);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(281, 418);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
+            groupBox2.Enter += groupBox2_Enter;
+            // 
+            // button7
+            // 
+            button7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button7.Location = new Point(152, 278);
+            button7.Name = "button7";
+            button7.Size = new Size(96, 31);
+            button7.TabIndex = 10;
+            button7.Text = "CLEAR";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // button6
+            // 
+            button6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button6.Location = new Point(35, 278);
+            button6.Name = "button6";
+            button6.Size = new Size(96, 31);
+            button6.TabIndex = 9;
+            button6.Text = "FILL";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // listView1
+            // 
+            listView1.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            listView1.Location = new Point(19, 28);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(243, 244);
+            listView1.TabIndex = 8;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Impact", 15F, FontStyle.Bold);
             label3.ImeMode = ImeMode.NoControl;
-            label3.Location = new Point(63, 19);
+            label3.Location = new Point(56, 4);
             label3.Name = "label3";
             label3.Size = new Size(168, 25);
             label3.TabIndex = 7;
@@ -196,116 +275,116 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI", 6F);
+            label13.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label13.ImeMode = ImeMode.NoControl;
-            label13.Location = new Point(471, 145);
+            label13.Location = new Point(475, 145);
             label13.Name = "label13";
-            label13.Size = new Size(89, 11);
+            label13.Size = new Size(95, 13);
             label13.TabIndex = 50;
-            label13.Text = "-by George R. R. Martin";
+            label13.Text = "-by Stephen king";
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
+            label14.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label14.ImeMode = ImeMode.NoControl;
-            label14.Location = new Point(474, 132);
+            label14.Location = new Point(470, 132);
             label14.Name = "label14";
-            label14.Size = new Size(72, 11);
+            label14.Size = new Size(82, 15);
             label14.TabIndex = 49;
-            label14.Text = "Game of Thrones";
+            label14.Text = "Rose Madder";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 6F);
+            label11.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label11.ImeMode = ImeMode.NoControl;
-            label11.Location = new Point(366, 145);
+            label11.Location = new Point(374, 145);
             label11.Name = "label11";
-            label11.Size = new Size(89, 11);
+            label11.Size = new Size(82, 13);
             label11.TabIndex = 48;
-            label11.Text = "-by George R. R. Martin";
+            label11.Text = "-by Jules verne";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
+            label12.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label12.ImeMode = ImeMode.NoControl;
             label12.Location = new Point(369, 132);
             label12.Name = "label12";
-            label12.Size = new Size(72, 11);
+            label12.Size = new Size(102, 15);
             label12.TabIndex = 47;
-            label12.Text = "Game of Thrones";
+            label12.Text = "Around da World";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 6F);
+            label8.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.ImeMode = ImeMode.NoControl;
-            label8.Location = new Point(259, 145);
+            label8.Location = new Point(262, 145);
             label8.Name = "label8";
-            label8.Size = new Size(89, 11);
+            label8.Size = new Size(111, 13);
             label8.TabIndex = 46;
-            label8.Text = "-by George R. R. Martin";
+            label8.Text = "-by Michael crichton";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
+            label10.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ImeMode = ImeMode.NoControl;
-            label10.Location = new Point(262, 132);
+            label10.Location = new Point(257, 132);
             label10.Name = "label10";
-            label10.Size = new Size(72, 11);
+            label10.Size = new Size(55, 15);
             label10.TabIndex = 45;
-            label10.Text = "Game of Thrones";
+            label10.Text = "Timeline";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 6F);
+            label6.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ImeMode = ImeMode.NoControl;
-            label6.Location = new Point(149, 145);
+            label6.Location = new Point(152, 145);
             label6.Name = "label6";
-            label6.Size = new Size(89, 11);
+            label6.Size = new Size(94, 13);
             label6.TabIndex = 44;
-            label6.Text = "-by George R. R. Martin";
+            label6.Text = "-by William peter";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
+            label7.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ImeMode = ImeMode.NoControl;
-            label7.Location = new Point(152, 132);
+            label7.Location = new Point(147, 132);
             label7.Name = "label7";
-            label7.Size = new Size(72, 11);
+            label7.Size = new Size(77, 15);
             label7.TabIndex = 43;
-            label7.Text = "Game of Thrones";
+            label7.Text = "The Exorcist";
             // 
             // label27
             // 
             label27.AutoSize = true;
-            label27.Font = new Font("Segoe UI", 6F);
+            label27.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label27.ImeMode = ImeMode.NoControl;
-            label27.Location = new Point(32, 145);
+            label27.Location = new Point(35, 145);
             label27.Name = "label27";
-            label27.Size = new Size(89, 11);
+            label27.Size = new Size(73, 13);
             label27.TabIndex = 42;
-            label27.Text = "-by George R. R. Martin";
+            label27.Text = "-by Hannibal";
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Font = new Font("Corbel", 6.75F, FontStyle.Bold);
+            label24.Font = new Font("Corbel", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label24.ImeMode = ImeMode.NoControl;
-            label24.Location = new Point(35, 132);
+            label24.Location = new Point(30, 132);
             label24.Name = "label24";
-            label24.Size = new Size(72, 11);
+            label24.Size = new Size(90, 15);
             label24.TabIndex = 41;
-            label24.Text = "Game of Thrones";
+            label24.Text = "Thomas Harris";
             // 
             // pictureBox5
             // 
-            pictureBox5.Image = Properties.Resources.Game_of_thrones;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(475, 51);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(85, 78);
@@ -315,7 +394,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = Properties.Resources.Game_of_thrones;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(369, 51);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(85, 78);
@@ -325,7 +404,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.Game_of_thrones;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(262, 51);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(85, 78);
@@ -335,7 +414,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.Game_of_thrones;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(152, 51);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(85, 78);
@@ -345,7 +424,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Game_of_thrones;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(35, 51);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(85, 78);
@@ -589,6 +668,7 @@
             Name = "yourLibrary";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "yourLibrary";
+            Load += yourLibrary_Load;
             panel1.ResumeLayout(false);
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
@@ -638,16 +718,8 @@
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
-        private Label label11;
-        private Label label12;
-        private Label label8;
-        private Label label10;
-        private Label label6;
-        private Label label7;
         private Label label27;
         private Label label24;
-        private Label label13;
-        private Label label14;
         private PictureBox pictureBox19;
         private PictureBox pictureBox20;
         private Label label23;
@@ -658,5 +730,19 @@
         private PictureBox pictureBox11;
         private Label label5;
         private Label label2;
+        private ListView listView1;
+        private Label label13;
+        private Label label14;
+        private Label label11;
+        private Label label12;
+        private Label label8;
+        private Label label10;
+        private Label label6;
+        private Label label7;
+        private Button button7;
+        private Button button6;
+        private Button button9;
+        private Button button8;
+        private ListView listView2;
     }
 }
